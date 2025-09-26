@@ -1,5 +1,9 @@
 <?php
 
+require_once("Persona.php");
+/**
+ * Ciudadano implementa interfaz Persona
+ */
 class Ciudadano extends Persona
 {
 
@@ -19,24 +23,25 @@ class Ciudadano extends Persona
         $this->nombre = $nombre;
     }
 
+    /* Getters & Setters */
     public function setName($name)
     {
         $this->nombre = $name;
     }
 
-    public function setAge($name)
+    public function setAge($age)
     {
-        $this->age = $name;
+        $this->age = $age;
     }
 
-    public function setSex($name)
+    public function setSex($sex)
     {
-        $this->sex = $name;
+        $this->sex = $sex;
     }
 
-    public function setPhone($name)
+    public function setPhone($phone)
     {
-        $this->phone = $name;
+        $this->phone = $phone;
     }
 
     public function getName()
@@ -63,6 +68,8 @@ class Ciudadano extends Persona
     {
         return $this->id;
     }
+
+    /* Override de metodos heredados */
 
     public function comer()
     {
