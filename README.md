@@ -1,1 +1,1 @@
-"# Patrones de dise¤o en PHP" 
+# Patrones de dise¤o en PHP
