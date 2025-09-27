@@ -20,4 +20,10 @@ Estos patrones se clasifican en tres tipos, de acuerdo a su comportamiento, su m
 - [State]()
 - [Strategy]()
 
-### Chain of Responsability
+ ## Creation Pattern
+
+- [AbstractFactory](CreationPattern/AbstractFactory/abstract-factory.md)
+- [Builder](CreationPattern/Builder/builder.md)
+- [FactoryMethod](CreationPattern/FactoryMethod/factory-method.md)
+- [Prototype](CreationPattern/Prototype/prototype.md)
+- [Singleton](CreationPattern/Singleton/singleton.md)
