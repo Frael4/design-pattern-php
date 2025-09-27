@@ -21,7 +21,7 @@ class Usuario implements Clonable
     }
     
     // Método implementado de la interfaz. Llama al operador 'clone' de PHP.
-    public function clonar(): Clonable
+    public function clonar(): Usuario
     {
         // En PHP, simplemente usamos el operador 'clone' para iniciar el proceso.
         return clone $this;

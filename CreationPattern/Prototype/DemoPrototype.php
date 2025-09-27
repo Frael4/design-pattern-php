@@ -3,17 +3,18 @@ ini_set('display_errors', 1);
 
 include_once("Usuario.php");
 
-// 1. Crear el Prototipo Original
+// Crear el Prototipo Original
 $usuarioOriginal = new Usuario(nombre: "Stevkson", age: 20);
 
 echo "Original: " . $usuarioOriginal . "\n"; 
 
-// 2. Clonación usando el método del Prototipo
+// Clonación usando el método del Prototipo
 $clonado = $usuarioOriginal->clonar();
 echo "Clonado: " . $clonado . "\n"; 
 
 
-// 3. Modificar el Clon
+// Modificar el Clon
+/** @var Usuario $clonado */
 $clonado->setAge(25);
 
 echo "\nOriginal (Verificación): " . $usuarioOriginal . "\n";
