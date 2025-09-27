@@ -1,7 +1,7 @@
 ## Factory Method
+Este patrón define una interfaz para crear un objeto, pero permite que las subclases alteren el tipo de objetos que se crearán.
 
-
-> Las clases `FabricaCarro` y `FabricaAvion` son las clases encargadas de implementar/instanciar los objetos `Carro` y `Avion`
+> Las clases `FabricaCarro` y `FabricaAvion` son las subclases encargadas de implementar/instanciar los objetos `Carro` y `Avion`
 
 **Super Clases**
 - `Vehiculo`
