@@ -4,18 +4,20 @@
 
 Estos patrones se clasifican en tres tipos, de acuerdo a su comportamiento, su manera de creación y su estructura
 
-- Patrones de Comportamiento
+- [Patrones de Comportamiento](#behavior-pattern)
 - Patrones Creacionales
 - Patrones Estructurales
 
 ## Behavior Pattern
 
-- Chain of responsability
-- Command
-- Interpreter
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
+- [Chain of responsability](#chain-of-responsability)
+- [Command]()
+- [Interpreter]()
+- [Iterator]()
+- [Mediator]()
+- [Memento]()
+- [Observer]()
+- [State]()
+- [Strategy]()
+
+### Chain of Responsability
