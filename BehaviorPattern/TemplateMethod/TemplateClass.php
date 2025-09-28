@@ -1,34 +1,37 @@
 <?php
-use Cliente;
 
+/**
+ * @api TemplateMethod
+ * 
+ * Esta clase sirve como base o modelo del conjunto de procesos
+ * que se realizara
+ * 
+ */
 abstract class TemplateMethod{
+
+    private Cliente $cliente;
 
     function __construct(Cliente $cliente)
     {
         $this->cliente = $cliente;
     }
 
-    public function runTemplate()//Metodo que corre las funciones privadas
+    // Metodo Plantilla, es el metodo clave de este patron, ya que sera encargado de ejecutar
+    // todos los metodos que conllevan el proceso del algoritmo
+    public function runTemplate()
     {
-        # code...
         echo $this->operacionUno($this->cliente);
         echo $this->operacionDos($this->cliente);
         echo $this->operacionTres($this->cliente);
     }
 
-    /**
-     * @
-     */
-    protected abstract function operacionUno($value);//Protegido solo para que sea usado por el Template
+    // Protegido solo para que sea usado por el Template
+    protected abstract function operacionUno(Cliente $cliente);
+    
+    // Protegido solo para que sea usado por el Template
+    protected abstract function operacionDos(Cliente $cliente);
 
-    /**
-     * 
-     */
-    protected abstract function operacionDos($value);//Protegido solo para que sea usado por el Template
-
-    /**
-     * 
-     */
-    protected abstract function operacionTres($value);//Protegido solo para que sea usado por el Template
+    // Protegido solo para que sea usado por el Template
+    protected abstract function operacionTres(Cliente $cliente);
 
 }

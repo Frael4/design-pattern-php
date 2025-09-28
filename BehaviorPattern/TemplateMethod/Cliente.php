@@ -1,8 +1,11 @@
 <?php
 
+/**
+ * Cliente
+ */
 class Cliente{
 
-    var $nombre = '';
+    private string $nombre;
 
     public function setName($value){
         $this->nombre = $value;
