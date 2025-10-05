@@ -1,4 +1,4 @@
-# [Memento](https://refactoring.guru/es/design-patterns/memento)
+# [Memento](https://refactoring.guru/es/design-patterns/memento) (Recuerdo) 💾
 
 Memento es un patrón de diseño de comportamiento que te permite guardar y restaurar el estado previo de un objeto sin revelar los detalles de su implementación.
 
