@@ -32,10 +32,10 @@ Estos patrones se clasifican en tres tipos, de acuerdo a su comportamiento, su m
 
 ## Structural Pattern
 
-- [Adapter]()
-- [Bridge]()
-- [Composite]()
-- [Decorator]()
-- [Facade]()
-- [Flyweight]()
-- [Proxy]()
+- [Adapter](StructuralPattern/Adapter/adapter.md)
+- [Bridge](StructuralPattern/Bridge/bridge.md)
+- [Composite](StructuralPattern/Composite/composite.md)
+- [Decorator](StructuralPattern/Decorator/decorator.md)
+- [Facade](StructuralPattern/Facade/facade.md)
+- [Flyweight](StructuralPattern/Flyweight/flyweight.md)
+- [Proxy](StructuralPattern/Proxy/proxy.md)
