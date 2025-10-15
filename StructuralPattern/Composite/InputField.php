@@ -2,6 +2,9 @@
 
 include_once "FormElement.php";
 
+/**
+ * Summary of InputField
+ */
 class InputField implements FormElement
 {
     private $name;
