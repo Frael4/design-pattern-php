@@ -1,0 +1,1 @@
+# [Proxy](https://refactoring.guru/es/design-patterns/proxy)
